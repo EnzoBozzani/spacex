@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    .common-navbar {
+        min-width: 100vw;
+        height: 6rem;
+        @include flex(row, flex-start, flex-start);
+        a {
+            width: 20%;
+            @include flex(row, center, center);
+            img {
+                width: 100%;
+            }
+            transition: 0.5s;
+            &:hover {
+                scale: 1.1;
+            }
+        }
+        div {
+            width: 20%;
+            height: 100%;   
+            @include flex(row, flex-start, center);
+            gap: 1px;
+            a {
+                color: $main;
+                text-decoration: none;
+                font-size: 12px;
+                width: 50%;
+                transition: 0.5s;
+                @include flex(row, center, center);
+                &:hover {
+                    color: #fff200;
+                }
+            }
+        }
+    }
+    .page-footer {
+        height: 5rem;
+        background-color: #000;
+        color: #555252;
+        a {
+            text-decoration: none;
+        }
+    }
+}

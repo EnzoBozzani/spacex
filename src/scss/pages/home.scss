@@ -1,0 +1,22 @@
+.section-1 {
+    @include section-size("/dist/images/01.jpg");
+    .section-1-text {
+        height: 100vh;
+        @include flex(column,center, flex-start);
+        color: $main
+    }
+}
+
+.section-2 {
+    @include section-size("/dist/images/03.jpg");
+    color: $main
+}
+
+.section-3 {
+    @include section-size("/dist/images/02.gif");
+    color: $main;
+}
+
+.section-4 {
+    @include section-size("/dist/images/04.jpg")
+}
