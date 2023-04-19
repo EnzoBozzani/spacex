@@ -6,7 +6,8 @@
 }
 
 @mixin section-size($url){
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
     background-image: url($url);
     background-repeat: no-repeat;
     min-width: 100vw;
