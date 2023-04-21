@@ -1,27 +1,26 @@
-.section-1 {
-    @include section-size("/dist/images/01.jpg");
+.falcon-section-1 {
+    @include section-size("/dist/images/falcon9/01.jpg");
     color: $main;
 }
 
-.section-2 {
+.falcon-section-2 {
     @include section-size("/dist/images/03.jpg");
     color: $main;
 }
 
-.section-3 {
+.falcon-section-3 {
     @include section-size("/dist/images/02.gif");
     color: $main;
 }
 
-.section-4 {
+.falcon-section-4 {
     @include section-size("/dist/images/04.jpg");
     color: $main;
 }
 
-.section-content {
-    margin-top: 12.5%;
-    margin-left: 7%;
-    @include flex(column, center, flex-start);
+.falcon-section-content {
+    margin-top: 20%;
+    @include flex(column, center, center);
 }
 
 .learn-more-btn {

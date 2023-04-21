@@ -43,6 +43,13 @@ module.exports = {
         path: path.resolve(__dirname, 'dist')
     },
     plugins: [
-        new HtmlWebpackPlugin({ template: './dist/index.html' })
+        new HtmlWebpackPlugin({
+            template: './dist/index.html'
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'falcon9.html',
+            template: './dist/falcon9.html',
+            chunks: ['index']
+        })
     ]
 }
