@@ -3,8 +3,19 @@
     color: $main;
 }
 
+.falcon-section-1-2 {
+    background-color: #000000;
+    min-width: 100vw;
+    height: 20rem;
+    @include flex(row, space-around, center);
+    .info-text {
+        color: #fff;
+        @include flex(column, flex-start, center);
+    }
+}
+
 .falcon-section-2 {
-    @include section-size("/dist/images/03.jpg");
+    @include section-size("/dist/images/falcon9/02.jpg");
     color: $main;
 }
 
