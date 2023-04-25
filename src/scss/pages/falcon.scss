@@ -17,15 +17,32 @@
 .falcon-section-2 {
     @include section-size("/dist/images/falcon9/02.jpg");
     color: $main;
+    .falcon-desc {
+        margin-top: 12%;
+        width: 40%;
+        p{
+            line-height: 72px;
+            height: 100vh;
+        }
+    }
 }
 
 .falcon-section-3 {
-    @include section-size("/dist/images/02.gif");
+    min-height: 100vh;
+    min-width: 100vw;
     color: $main;
+    .carousel, .slide, .carousel-inner {
+        height: 100%;
+        width: 100%;
+    }
+    .falcon-carousel1-1{
+        background-image: url(/dist/images/03.jpg);
+        background-size: cover;
+    }
 }
 
 .falcon-section-4 {
-    @include section-size("/dist/images/04.jpg");
+    @include section-size("/dist/images/falcon9/02.jpg");
     color: $main;
 }
 
@@ -37,3 +54,4 @@
 .learn-more-btn {
     padding: $m1 $l1;
 }
+
