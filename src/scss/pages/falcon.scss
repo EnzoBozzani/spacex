@@ -20,9 +20,8 @@
     .falcon-desc {
         margin-top: 12%;
         width: 40%;
-        p{
-            line-height: 72px;
-            height: 100vh;
+        h5{
+            line-height: 50px;
         }
     }
 }
@@ -31,13 +30,31 @@
     min-height: 100vh;
     min-width: 100vw;
     color: $main;
-    .carousel, .slide, .carousel-inner {
-        height: 100%;
+    .carousel, .carousel-inner, .carousel-item {
+        height: 100vh;
         width: 100%;
+        .table {
+            color: $main;
+            width: 100%;
+        }
     }
     .falcon-carousel1-1{
-        background-image: url(/dist/images/03.jpg);
+        background-image: url(/dist/images/falcon9/03.jpg);
         background-size: cover;
+        background-position: center;
+        @include flex(row, flex-start, center);
+    }
+    .falcon-carousel1-2{
+        background-image: url(/dist/images/falcon9/04.jpg);
+        background-size: cover;
+        background-position: center;
+        @include flex(row, flex-start, center);
+        div > div {
+            width: 40%;
+        }
+    }
+    .falcon-carousel-content {
+        margin-left: 15rem;
     }
 }
 
