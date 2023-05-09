@@ -33,28 +33,29 @@
     .carousel, .carousel-inner, .carousel-item {
         height: 100vh;
         width: 100%;
+        .f-c-content {
+            margin-top: 15%;
+            margin-left: 13.5%;
+        }
+        .f-c-item1{
+            @include section-size("/dist/images/falcon9/03.jpg");
+        }
+        .f-c-item2{
+            @include section-size("/dist/images/falcon9/04.jpg");
+        }
+        .f-c-item3{
+            @include section-size("/dist/images/falcon9/05.jpg");
+        }
+        .f-c-item4{
+            @include section-size("/dist/images/falcon9/06.jpg");
+        }
+        .f-c-item5{
+            @include section-size("/dist/images/falcon9/07.jpg");
+        }
         .table {
             color: $main;
-            width: 100%;
-        }
-    }
-    .falcon-carousel1-1{
-        background-image: url(/dist/images/falcon9/03.jpg);
-        background-size: cover;
-        background-position: center;
-        @include flex(row, flex-start, center);
-    }
-    .falcon-carousel1-2{
-        background-image: url(/dist/images/falcon9/04.jpg);
-        background-size: cover;
-        background-position: center;
-        @include flex(row, flex-start, center);
-        div > div {
             width: 40%;
         }
-    }
-    .falcon-carousel-content {
-        margin-left: 15rem;
     }
 }
 
