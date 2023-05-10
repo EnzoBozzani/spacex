@@ -77,36 +77,36 @@
     min-height: 100vh;
     min-width: 100vw;
     color: $main;
-    .carousel, .carousel-inner, .carousel-item {
-        height: 100vh;
-        width: 100%;
-        .f-c2-item1{
-            @include section-size("/dist/images/falcon9/09.jpg");
-        }
-        .f-c2-item2{
-            @include section-size("/dist/images/falcon9/10.jpg");
-        }
-        .f-c2-item3{
-            @include section-size("/dist/images/falcon9/11.jpg");
-        }
-        .f-c2-item4{
-            @include section-size("/dist/images/falcon9/12.jpg");
-        }
-        .f-c2-item5{
-            @include section-size("/dist/images/falcon9/13.jpg");
-        }
-        .f-c2-item6{
-            @include section-size("/dist/images/falcon9/14.jpg");
-        }
-        .f-c2-content {
-            background-color: #000;
-            width: 70%;
-            @include flex(column, center, center);
-            margin-top: 50%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    }
+    // .carousel, .carousel-inner, .carousel-item {
+    //     height: 100vh;
+    //     width: 100%;
+    //     .f-c2-item1{
+    //         @include section-size("/dist/images/falcon9/09.jpg");
+    //     }
+    //     .f-c2-item2{
+    //         @include section-size("/dist/images/falcon9/10.jpg");
+    //     }
+    //     .f-c2-item3{
+    //         @include section-size("/dist/images/falcon9/11.jpg");
+    //     }
+    //     .f-c2-item4{
+    //         @include section-size("/dist/images/falcon9/12.jpg");
+    //     }
+    //     .f-c2-item5{
+    //         @include section-size("/dist/images/falcon9/13.jpg");
+    //     }
+    //     .f-c2-item6{
+    //         @include section-size("/dist/images/falcon9/14.jpg");
+    //     }
+    //     .f-c2-content {
+    //         background-color: #000;
+    //         width: 70%;
+    //         @include flex(column, center, center);
+    //         margin-top: 50%;
+    //         margin-left: auto;
+    //         margin-right: auto;
+    //     }
+    // }
 }
 
 .falcon-section1-content {
