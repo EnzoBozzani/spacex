@@ -50,6 +50,11 @@ module.exports = {
             filename: 'falcon9.html',
             template: './dist/falcon9.html',
             chunks: ['index']
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'hsf.html',
+            template: './dist/hsf.html',
+            chunks: ['index']
         })
     ]
 }

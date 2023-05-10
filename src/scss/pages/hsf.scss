@@ -1,0 +1,25 @@
+.hsf-section1 {
+    @include section-size("/dist/images/humanFlight/01.jpg");
+    color: $main;
+    .hsf-title {
+        font-size: 7rem;
+    }
+    .hsf-section1-content {
+        width: 100%;
+        height: 100%;
+        div {
+            margin-top: 15rem;
+            @include flex(column, center, center);
+        }
+    }
+}
+
+.hsf-section2{
+    @include section-size("/dist/images/humanFlight/02.jpg");
+    color: $main;
+    .hsf-section2-content {
+        margin-left: 55%;
+        margin-top: 10%;
+        width: 40%;
+    }
+}
